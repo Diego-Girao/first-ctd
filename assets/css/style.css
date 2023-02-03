@@ -159,8 +159,23 @@ footer {
 
 footer .footer {
 	justify-content: space-between;
-	color: var(--orange);
+	color: var(--dark-grayish-blue);
 	/* align-items: center; */
+}
+
+.flex-container-icons {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-container-icons i {
+	color: var(--dark-grayish-blue);
+	transition: 0.4s;
+	margin: 0.625rem;
+}
+
+.flex-container-icons i:hover {
+	color: var(--dark-blue);
 }
 
 @media (max-width: 999px) {
