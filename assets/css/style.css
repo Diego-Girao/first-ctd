@@ -3,6 +3,12 @@
 * {
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
+}
+
+html,
+body {
+	min-height: 100%;
 }
 
 :root {
@@ -13,6 +19,14 @@
 	--dark-grayish-blue: hsl(236, 13%, 42%);
 	--dark-blue: hsl(240, 100%, 5%);
 	--soft-black: rgb(13, 13, 13);
+}
+
+.flex-container {
+	display: flex;
+	min-width: 320px;
+	max-width: 999px;
+	width: 100%;
+	margin: auto;
 }
 
 li a {
@@ -135,6 +149,18 @@ nav {
 	background: #fff;
 	margin: 0.5rem;
 	transition: 0.5s;
+}
+
+footer {
+	display: flex;
+	background: var(--dark-blue);
+	height: 4.375rem;
+}
+
+footer .footer {
+	justify-content: space-between;
+	color: var(--orange);
+	/* align-items: center; */
 }
 
 @media (max-width: 999px) {
