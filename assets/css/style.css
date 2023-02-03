@@ -109,6 +109,11 @@ nav {
 	cursor: pointer;
 	padding: 1rem;
 	margin: 2.5rem 0 0 0;
+	transition-duration: 0.3s;
+}
+
+.btn-read-more:hover {
+	background: var(--dark-blue);
 }
 
 .main-news h2 {
