@@ -138,6 +138,20 @@ nav {
 	color: var(--dark-grayish-blue);
 }
 
+.grid-other-news-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.25rem;
+	margin: 0 auto;
+	max-width: 1240px;
+	padding: 20px;
+}
+
+.grid-other-news-container div:nth-child(n + 1) {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
 .menu-mobile {
 	display: none;
 	cursor: pointer;
@@ -178,6 +192,7 @@ footer .footer {
 	color: var(--dark-blue);
 }
 
+/* menu hamburguer */
 @media (max-width: 999px) {
 	body {
 		overflow-x: hidden;
