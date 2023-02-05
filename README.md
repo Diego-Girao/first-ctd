@@ -18,7 +18,7 @@ Esse template foi utilizado para a criação do Primeiro Projeto da mentoria **C
 
 ### O Desafio
 
-Users should be able to:
+Usuários devem conseguir:
 
 - Ver o layout ideal para a interface, dependendo do tamanho da tela do dispositivo
 - Ver o hover e focus para todos os elementos interativos na página
