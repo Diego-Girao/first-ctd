@@ -138,7 +138,7 @@ nav {
 	color: var(--dark-grayish-blue);
 }
 
-.grid-other-news-container {
+/* .grid-other-news-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 1.25rem;
@@ -151,7 +151,22 @@ nav {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 10px;
+} */
+
+.grid-other-news-container {
+	display: flex;
+	justify-content: space-around;
+	/* background: burlywood; */
+	padding-bottom: 6.25rem;
 }
+
+.other-news-first,
+.other-news-second,
+.other-news-third {
+	/* background: orchid; */
+	display: flex;
+}
+
 .menu-mobile {
 	display: none;
 	cursor: pointer;
