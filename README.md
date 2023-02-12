@@ -1,6 +1,6 @@
 # Frontend Mentor Challenge - Diego News homepage solution
 
-Esse template foi utilizado para a criação do Primeiro Projeto da mentoria **Conquiste Sua Vaga** , para que assim pudesse ser exercitado algumas habilidades de Frontend e assim poder melhorar a base de conhecimento e evoluir de cofrma consistente e continua.
+Esse template foi utilizado para a criação do Primeiro Projeto da mentoria **Conquiste Sua Vaga** , para que assim pudesse ser exercitado algumas habilidades de Frontend e assim poder melhorar a base de conhecimento e evoluir de forma consistente e continua.
 
 ## Sumário
 
@@ -59,9 +59,9 @@ Usuários devem conseguir:
 
 Algumas melhorias já estão mapeadas para próxima release, são as seguintes:
 
-- [] Migrar para um Framework - Em análise
-- [] Utilizar pré processadores CSS - Em análise
-- [] Integração com uma API de notícias - Em análise
+- [ ] Migrar para um Framework - Em análise
+- [ ] Utilizar pré processadores CSS - Em análise
+- [ ] Integração com uma API de notícias - Em análise
 
 ## Author
 
